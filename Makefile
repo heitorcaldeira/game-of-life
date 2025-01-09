@@ -1,5 +1,5 @@
 CC      = gcc
-CFLAGS 	= -Wall -Wextra -pedantic -ggdb -std=c11 `pkg-config --cflags sdl2`
+CFLAGS 	= -Wall -Wextra -pedantic -O2 -ggdb -std=c11 `pkg-config --cflags sdl2`
 LIBS		=	`pkg-config --libs sdl2`
 
 game: game.c
